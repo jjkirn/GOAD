@@ -11,7 +11,7 @@
 
 ## <u>Intro:</u>
 
-There are many writups on the internet that show how to install GOAD. Why did I write another one? 
+There are many writeups on the internet that show how to install GOAD. Why did I write another one? 
 
 My goal was to minimize the RAM requirements and to have all the VMs run directly under <b>VMware Workstation Pro</b> on the <b>Windows (11) host</b>. This also enables easier copy/paste between environments which other install did not provide. Also shutting down any unused VMs (such as a provioning VM after provioning) in this environment reduces RAM usage.
 
@@ -48,7 +48,7 @@ An <b>Ubuntu 20.04 Desktop</b> itself requires a minimun of 4 GB RAM.
 -- Total now is 44 GB minimum 
 ```
 
-You <b>should not use this mimimum</b>, you should add addtional RAM as it the <b>Ubuntu VM</b> that also has <b>VirtualBox</b> installed on it and it has its own requirements. I was able to get away with using (44-8 + margin) 40 GB of RAM for my test of this configuration of Ubuntu VM GOAD-Light install.
+You <b>should not use this mimimum</b>, you should add addtional RAM as the <b>Ubuntu VM</b> also has <b>VirtualBox</b> installed on it and it has its own requirements. I was able to get away with using (44-8 + margin) 40 GB of RAM for my test of this configuration of <b>Ubuntu VM GOAD-Light</b> install.
 
 All this ignores the VM processor requirements. I was able to get away with using 8 processors for my test of this configuration of <b>Ubuntu VM GOAD-Light</b> install figuring each VM needs 2 CPUs (6+host+kali) to run effectively.
 
