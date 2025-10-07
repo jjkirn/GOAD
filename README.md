@@ -17,7 +17,7 @@ My goal was to minimize the RAM requirements and to have all the VMs run directl
 
 My writeup is available [here](/pdf/GOAD-AD-Lab-Setup-from-Windows-Host.pdf).
 
-I have also included <b>a copy of all the files</b> I modified [here](files/). The locations where these files go are documented in my [writeup](https://github.com/Orange-Cyberdefense/GOAD).
+I have also included <b>a copy of all the files</b> I modified [here](files/). The locations where these files go are documented in my [writeup](/pdf/GOAD-AD-Lab-Setup-from-Windows-Host.pdf).
 
 ## <u>TLDR;</u>
 
@@ -50,7 +50,7 @@ An <b>Ubuntu 20.04 Desktop</b> itself requires a minimun of 4 GB RAM.
 
 You <b>should not use this mimimum</b>, you should add addtional RAM as the <b>Ubuntu VM</b> also has <b>VirtualBox</b> installed on it and it has its own requirements. I was able to get away with using (44-8 + margin) <b>40 GB of RAM</b> for my test of this configuration of <b>Ubuntu VM GOAD-Light</b> install.
 
-All this ignores the <b>VM processor requirements</b>. I was able to get away with assingig <b>8 processors</b> to the <b>Ubuntu 20.04 VM</b> for my test of this configuration of <b>Ubuntu VM GOAD-Light</b> install figuring each VM needs 2 CPUs (6 + host + kali) to run effectively.
+All this ignores the <b>VM processor requirements</b>. I was able to get away with assigning <b>8 processors</b> to the <b>Ubuntu 20.04 VM</b> for my test of this configuration of <b>Ubuntu VM GOAD-Light</b> install figuring each VM needs 2 CPUs (6 + host + kali) to run effectively.
 
 OK, enough about this approach, which I chose not to use for a <b>full GOAD</b> install.
 
