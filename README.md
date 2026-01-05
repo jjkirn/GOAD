@@ -66,6 +66,8 @@ OK, enough about this approach, which I chose not to use for a <b>full GOAD</b> 
 
 -  Because the GOAD VMs are not running in a nested environment, they are more responsive.
 
+##
+# ELK
 ## I created an updated writeup [here](pdf/GOAD-AD-Lab-ELK-Setup-from-Windows-Host.pdf) on 12.29.25 that adds ELK to the full GOAD LAB.
 
 Here is an example of the type of output availble from this ELK install. 
@@ -73,5 +75,12 @@ Here is an example of the type of output availble from this ELK install.
 
 <img src="images/ELK-3.png">
 
+##
+# JUMP BOX
+## I created an updated writeup [here](pdf/Access-GOAD-via-Jump-Box.pdf) on 1.5.26 that adds a Jump Box to the full GOAD LAB permitting remote access to the GOAD Lab.
 
-## My writeup was inspired by reviewing Huriye Özdemir's writeup - [GOAD Active Directory Lab Setup from a Windows host](https://l4dybug.medium.com/goad-active-directory-lab-setup-from-a-windows-host-dcdbfbb1ef08)
+
+<img src="images/GOAD-Network-JJK.png">
+
+##
+## My original writeup was inspired by reviewing Huriye Özdemir's writeup - [GOAD Active Directory Lab Setup from a Windows host](https://l4dybug.medium.com/goad-active-directory-lab-setup-from-a-windows-host-dcdbfbb1ef08)
